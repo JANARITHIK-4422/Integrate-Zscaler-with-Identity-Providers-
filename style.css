@@ -1,0 +1,17 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background: #f4f7f6; margin: 0; padding: 0; }
+#simulator-container { margin: 100px auto; width: 600px; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+h1 { color: #333; }
+p { color: #666; margin-bottom: 30px; }
+button { padding: 12px 24px; font-size: 1.1em; background: #00AEEF; color: white; border: none; border-radius: 6px; cursor: pointer; transition: background 0.3s; }
+button:hover { background: #008cc0; }
+#status-display { margin: 30px 0; font-weight: 600; color: #007bff; min-height: 1.5em; }
+#animation-stage { position: relative; height: 200px; margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px; }
+.stage-item { padding: 15px; border: 2px solid #ddd; border-radius: 8px; position: absolute; transition: all 0.5s ease; width: 120px; font-size: 0.9em; font-weight: bold; background: white; }
+.hidden { opacity: 0; transform: translateY(20px); pointer-events: none; }
+#user-icon { left: 20px; top: 70px; border-color: #333; }
+#connector { left: 240px; top: 70px; background: #e3f2fd; border-color: #2196f3; }
+#idp-box { left: 440px; top: 10px; background: #fff3e0; border-color: #ff9800; }
+#zscaler-cloud { left: 440px; top: 130px; background: #e8f5e9; border-color: #4caf50; }
+.active { border-color: #00AEEF; box-shadow: 0 0 10px rgba(0, 174, 239, 0.5); }
+#connector::after, #idp-box::after { content: '>'; position: absolute; right: -30px; top: 50%; transform: translateY(-50%); font-size: 1.5em; color: #bbb; }
+color: #bbb; }
